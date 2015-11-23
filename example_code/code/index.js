@@ -39,7 +39,7 @@ function successPosition(position) {
 	//OK. Now we want to update the display with the correct values
 	$('#time').val("Recieved data at " + time);
 	$('#lattext').val(latitude);
-	
+	$('#longtext').val(longitude);
 }
 
 //called if the position is not obtained correctly
