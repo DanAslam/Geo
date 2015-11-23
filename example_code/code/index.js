@@ -16,7 +16,7 @@ function getPosition() {
 	
 	//change time box to show updated message
 	$('#time').val("Getting data...");
-	$('#Test').val("Is it working?");
+
 	//instruct location service to get position with appropriate callbacks
 	navigator.geolocation.getCurrentPosition(successPosition, failPosition);
 }
